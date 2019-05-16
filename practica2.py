@@ -42,7 +42,7 @@ def lanzGanar(listaPro):
     for i in listaPro:
         g=i[0]
         l=i[1]
-        if (g==0):
+        if (g==1):
             gano += 1
             lanza += l
     print('Lanzamientos Promedio Para Ganar: ',math.ceil(lanza/gano))
