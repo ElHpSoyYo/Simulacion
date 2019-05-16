@@ -46,14 +46,11 @@ def lanzGanar(listaPro):
             gano += 1
             lanza += l
     print('Lanzamientos Promedio Para Ganar: ',math.ceil(lanza/gano))
-    
-            
+   
+#Principal
 numIntentos = int(input("Ingrese el numero de juegos que desea Simular"))
 listaPro=[]
 for i in range(numIntentos):
     listaPro.append(lanzamiento())
 probabilidad(listaPro)
 lanzGanar(listaPro)
-    
-    
-    
